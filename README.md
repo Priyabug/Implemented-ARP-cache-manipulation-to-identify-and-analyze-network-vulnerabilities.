@@ -45,8 +45,4 @@ address, leading to potential man-in-the-middle attacks.
      3. Launching MITM atatck on netcat<br>
  
 
-- <b> Writing C Programs for Sniffing and Spoofing:</b>
- 
-     1. Tasks in this set involve writing programs in C to manually implement packet sniffing and spoofing, allowing students to understand the
-          low-level implementation details of these techniques.<br>
 
