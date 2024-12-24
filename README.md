@@ -11,7 +11,14 @@ mappings. This can cause the victim’s packets to be redirected to the computer
 address, leading to potential man-in-the-middle attacks.
 <br />
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Languages and Utilities Used</title>
+</head>
+<body>
 <h2>2. Languages and Utilities Used</h2>
 
     <ul>
