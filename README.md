@@ -11,68 +11,14 @@ mappings. This can cause the victim’s packets to be redirected to the computer
 address, leading to potential man-in-the-middle attacks.
 <br />
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Languages and Utilities Used</title>
-</head>
-<body>
-<h2>2. Languages and Utilities Used</h2>
+<h2>Languages and Utilities Used</h2>
 
-    <ul>
-        <li>
-            <strong>Python:</strong> Used to write scripts for ARP packet crafting, spoofing, and sniffing using Scapy.
-        </li>
-        <li>
-            <strong>Shell scripting:</strong> To interact with Docker and network utilities like <code>tcpdump</code>, <code>sysctl</code>, etc.
-        </li>
-    </ul>
+- <b>Python</b> 
+- <b>Ununtu 20.04 VM</b>
 
-    <ul>
-        <li>
-            <strong>Scapy:</strong> A Python library for crafting and analyzing network packets.
-        </li>
-        <li>
-            <strong>tcpdump:</strong> For packet sniffing.
-        </li>
-        <li>
-            <strong>Docker:</strong> To create and manage the virtualized lab environment.
-        </li>
-        <li>
-            <strong>Wireshark:</strong> For packet analysis.
-        </li>
-        <li>
-            <strong>Telnet and Netcat:</strong> For communication between hosts.
-        </li>
-    </ul>
-</body>
-</html>
+<h2>Environments Used </h2>
 
-    <h2>3. Environments Used</h2>
-    <ul>
-        <li>
-            <strong>SEED Ubuntu 20.04 VM:</strong>
-            <ul>
-                <li>Pre-configured with necessary tools, aliases, and scripts.</li>
-                <li>Supports containerized setups.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Docker:</strong>
-            <ul>
-                <li>Used to create isolated environments for the attacker (Host M) and victims (Hosts A and B).</li>
-                <li>Lab network: <code>10.9.0.0/24</code>.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Docker Compose:</strong>
-            <ul>
-                <li>Simplifies container management using the <code>docker-compose.yml</code> file.</li>
-            </ul>
-        </li>
-    </ul>
+- <b>Windows 10</b> (21H2)
 
 <h2> Lab topics covered</h2>
 
