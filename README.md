@@ -14,7 +14,6 @@ address, leading to potential man-in-the-middle attacks.
 
 <h3>2. Languages and Utilities Used</h3>
 
-    <h4>Languages:</h4>
     <ul>
         <li>
             <strong>Python:</strong> Used to write scripts for ARP packet crafting, spoofing, and sniffing using Scapy.
