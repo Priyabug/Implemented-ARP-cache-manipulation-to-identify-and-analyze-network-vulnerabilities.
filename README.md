@@ -12,15 +12,37 @@ address, leading to potential man-in-the-middle attacks.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h3>2. Languages and Utilities Used</h3>
 
-- <b>Python: Used to write scripts for ARP packet crafting, spoofing, and sniffing using Scapy</b> 
-- <b>Shell scripting: To interact with Docker and network utilities like tcpdump, sysctl, etc</b>
-- <b>Scapy: A Python library for crafting and analyzing network packets.</b>
-- <b>tcpdump: For packet sniffing.</b>
-- <b>Docker: To create and manage the virtualized lab environment.</b>
-- <b>Wireshark: For packet analysis.</b>
-- <b>Telnet and Netcat: For communication between hosts.</b>
+    <h4>Languages:</h4>
+    <ul>
+        <li>
+            <strong>Python:</strong> Used to write scripts for ARP packet crafting, spoofing, and sniffing using Scapy.
+        </li>
+        <li>
+            <strong>Shell scripting:</strong> To interact with Docker and network utilities like <code>tcpdump</code>, <code>sysctl</code>, etc.
+        </li>
+    </ul>
+
+    <h4>Utilities:</h4>
+    <ul>
+        <li>
+            <strong>Scapy:</strong> A Python library for crafting and analyzing network packets.
+        </li>
+        <li>
+            <strong>tcpdump:</strong> For packet sniffing.
+        </li>
+        <li>
+            <strong>Docker:</strong> To create and manage the virtualized lab environment.
+        </li>
+        <li>
+            <strong>Wireshark:</strong> For packet analysis.
+        </li>
+        <li>
+            <strong>Telnet and Netcat:</strong> For communication between hosts.
+        </li>
+    </ul>
+
 
     <h3>3. Environments Used</h3>
     <ul>
