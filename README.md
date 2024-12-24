@@ -47,6 +47,7 @@ address, leading to potential man-in-the-middle attacks.
             <strong>Telnet and Netcat:</strong> For communication between hosts.
         </li>
     </ul>
+</body>
 </html>
 
     <h2>3. Environments Used</h2>
