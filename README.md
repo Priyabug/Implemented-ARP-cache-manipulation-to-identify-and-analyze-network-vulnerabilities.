@@ -23,10 +23,10 @@ address, leading to potential man-in-the-middle attacks.
 
 <h2> Lab topics covered</h2>
 
-- <b>Basics of packet sniffing and spoofing.</b>
-- <b>Using the pcap library and Scapy for packet sniffing.</b>
-- <b>Using raw sockets and Scapy for packet spoofing.</b>
-- <b>Manipulating packets using Scapy.</b>
+- <b>ARP Cache Poisoning</b>
+- <b>MITM Attack on Telnet using ARP Cache Poisoning</b>
+- <b>MITM Attack on Netcat using ARP Cache Poisoning</b>
+
 
 <h2>Shell scripts commands</h2>
 
@@ -41,10 +41,10 @@ address, leading to potential man-in-the-middle attacks.
 
 - <b> Using Scapy for Sniffing and Spoofing:</b>
 
-     1. Sniffing packets with Scapy, including setting filters to capture specific types of packets (like ICMP or TCP).<br>
-     2. Spoofing ICMP packets with arbitrary source IP addresses using Scapy.<br>
-     3. Implementing a traceroute-like tool using Scapy by manipulating the TTL (Time-To-Live) field in IP packets.<br>
-     4. Combining sniffing and spoofing techniques to create a program that automatically sends spoofed ICMP replies.<br>
+     1. Launching an ARP cache poisoning attack on a target machine<br>
+     2. Launching MITM attack on Telnet.<br>
+     3. Launching MITM atatck on netcat<br>
+ 
 
 - <b> Writing C Programs for Sniffing and Spoofing:</b>
  
