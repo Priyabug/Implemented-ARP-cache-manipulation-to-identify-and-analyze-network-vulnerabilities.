@@ -14,12 +14,37 @@ address, leading to potential man-in-the-middle attacks.
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Python</b> 
-- <b>Ununtu 20.04 VM</b>
+- <b>Python: Used to write scripts for ARP packet crafting, spoofing, and sniffing using Scapy</b> 
+- <b>Shell scripting: To interact with Docker and network utilities like tcpdump, sysctl, etc</b>
+- <b>Scapy: A Python library for crafting and analyzing network packets.</b>
+- <b>tcpdump: For packet sniffing.</b>
+- <b>Docker: To create and manage the virtualized lab environment.</b>
+- <b>Wireshark: For packet analysis.</b>
+- <b>Telnet and Netcat: For communication between hosts.</b>
 
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
+    <h3>3. Environments Used</h3>
+    <ul>
+        <li>
+            <strong>SEED Ubuntu 20.04 VM:</strong>
+            <ul>
+                <li>Pre-configured with necessary tools, aliases, and scripts.</li>
+                <li>Supports containerized setups.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Docker:</strong>
+            <ul>
+                <li>Used to create isolated environments for the attacker (Host M) and victims (Hosts A and B).</li>
+                <li>Lab network: <code>10.9.0.0/24</code>.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Docker Compose:</strong>
+            <ul>
+                <li>Simplifies container management using the <code>docker-compose.yml</code> file.</li>
+            </ul>
+        </li>
+    </ul>
 
 <h2> Lab topics covered</h2>
 
