@@ -12,7 +12,7 @@ address, leading to potential man-in-the-middle attacks.
 <br />
 
 
-<h3>2. Languages and Utilities Used</h3>
+<h2>2. Languages and Utilities Used</h2>
 
     <ul>
         <li>
@@ -23,7 +23,6 @@ address, leading to potential man-in-the-middle attacks.
         </li>
     </ul>
 
-    <h4>Utilities:</h4>
     <ul>
         <li>
             <strong>Scapy:</strong> A Python library for crafting and analyzing network packets.
@@ -43,7 +42,7 @@ address, leading to potential man-in-the-middle attacks.
     </ul>
 
 
-    <h3>3. Environments Used</h3>
+    <h2>3. Environments Used</h2>
     <ul>
         <li>
             <strong>SEED Ubuntu 20.04 VM:</strong>
