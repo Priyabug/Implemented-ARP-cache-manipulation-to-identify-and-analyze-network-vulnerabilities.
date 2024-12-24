@@ -3,7 +3,12 @@
 
 
 <h2>Description</h2>
-Two key ideas in network security are packet sniffing and spoofing, which pose serious risks to network communication. Understanding these two risks is necessary in order to comprehend networking security protocols. Numerous tools exist for packet sniffing and spoofing, including Wireshark, Tcpdump, Netwox, Scapy, and others. Both attackers and security specialists frequently utilize some of these techniques. While knowing how to use these tools is vital, understanding how they operate—that is, how software implements packet sniffing and spoofing.
+The Address Resolution Protocol (ARP) is a communication protocol used for discovering the link layer
+address, such as the MAC address, given an IP address. The ARP protocol is a very simple protocol, and
+it does not implement any security measure. The ARP cache poisoning attack is a common attack against
+the ARP protocol. Using such an attack, attackers can fool the victim into accepting forged IP-to-MAC
+mappings. This can cause the victim’s packets to be redirected to the computer with the forged MAC
+address, leading to potential man-in-the-middle attacks.
 <br />
 
 
