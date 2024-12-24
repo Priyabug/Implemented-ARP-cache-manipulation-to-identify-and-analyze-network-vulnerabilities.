@@ -11,7 +11,7 @@ mappings. This can cause the victim’s packets to be redirected to the computer
 address, leading to potential man-in-the-middle attacks.
 <br />
 
-
+<html>
 <h2>2. Languages and Utilities Used</h2>
 
     <ul>
@@ -40,7 +40,7 @@ address, leading to potential man-in-the-middle attacks.
             <strong>Telnet and Netcat:</strong> For communication between hosts.
         </li>
     </ul>
-
+</html>
 
     <h2>3. Environments Used</h2>
     <ul>
