@@ -1,49 +1,56 @@
-<h1>Implemented-ARP-cache-manipulation-to-identify-and-analyze-network-vulnerabilities.</h1>
+# Implemented ARP Cache Manipulation to Identify and Analyze Network Vulnerabilities
 
+## Description
 
+The **Address Resolution Protocol (ARP)** is a communication protocol used for discovering the link layer address (e.g., MAC address) given an IP address. The ARP protocol is simple and lacks inherent security features, making it vulnerable to attacks.
 
-<h2>Description</h2>
-The Address Resolution Protocol (ARP) is a communication protocol used for discovering the link layer
-address, such as the MAC address, given an IP address. The ARP protocol is a very simple protocol, and
-it does not implement any security measure. The ARP cache poisoning attack is a common attack against
-the ARP protocol. Using such an attack, attackers can fool the victim into accepting forged IP-to-MAC
-mappings. This can cause the victim’s packets to be redirected to the computer with the forged MAC
-address, leading to potential man-in-the-middle attacks.
-<br />
+One such attack is **ARP cache poisoning**, a common method of exploiting the ARP protocol. In this attack, attackers forge IP-to-MAC mappings to mislead the victim into accepting incorrect mappings. As a result, network traffic can be redirected to an attacker’s device, allowing for potential **Man-in-the-Middle (MITM)** attacks.
 
-![image](https://github.com/user-attachments/assets/374e63f4-0121-407a-9cb5-c2c6c2aff12f) 
+![ARP Poisoning](https://github.com/user-attachments/assets/374e63f4-0121-407a-9cb5-c2c6c2aff12f)
 
-<h2>Languages and Utilities Used</h2>
+## Languages and Utilities Used
 
-- <b>Python</b> 
-- <b>Ununtu 20.04 VM</b>
+- **Python**
+- **Ubuntu 20.04 VM**
 
-<h2>Environments Used </h2>
+## Environments Used
 
-- <b>Windows 10</b> (21H2)
+- **Windows 10** (21H2)
 
-<h2> Lab topics covered</h2>
+## Lab Topics Covered
 
-- <b>ARP Cache Poisoning</b>
-- <b>MITM Attack on Telnet using ARP Cache Poisoning</b>
-- <b>MITM Attack on Netcat using ARP Cache Poisoning</b>
+- **ARP Cache Poisoning**
+- **MITM Attack on Telnet using ARP Cache Poisoning**
+- **MITM Attack on Netcat using ARP Cache Poisoning**
 
+## Shell Scripts and Commands
 
-<h2>Shell scripts commands</h2>
+- `./dc-build.sh` - Build the Docker images. It can take one additional parameter for the build process, e.g., `./dc-build.sh --no-cache`.
+- `./dc-up.sh` - Start the Docker containers in the foreground.
+- `./dc-up-d.sh` - Start the Docker containers in the background.
+- `./dc-stop.sh` - Stop the Docker containers. It can take one additional parameter for the stop process.
+- `./dc-down.sh` - Stop and remove the Docker containers, with an additional parameter for the process.
+- `./dc-unittest.sh` - A utility script for running a specific unit test class.
 
-- `./dc-build.sh` - Build the docker images, it can take one additional parameter to be used in the build process, e.g. `./dc-build.sh --no-cache`.
-- `./dc-up.sh` - Start the docker containers in the foreground.
-- `./dc-up-d.sh` - Start the docker containers in the background.
-- `./dc-stop.sh` - Stop the docker containers, it can take one additional parameter to be used in the stop process.
-- `./dc-down.sh` - Stop and remove the docker containers, it can take one additional parameter to be used in the stop and remove process.
-- `./dc-unittest.sh` - Utility script to aid in running a specific unit test class.
+## Program Walk-through:
 
-<h2>Program walk-through:</h2>
+### Using Scapy for Sniffing and Spoofing
 
-- <b> Using Scapy for Sniffing and Spoofing:</b>
+1. **Launching an ARP Cache Poisoning Attack** on a target machine.
+2. **MITM Attack on Telnet** using ARP Cache Poisoning.
+3. **MITM Attack on Netcat** using ARP Cache Poisoning.
 
-     1. Launching an ARP cache poisoning attack on a target machine<br>
-     2. Launching MITM attack on Telnet.<br>
+## Conclusion
+
+In this lab, we explored the power of **ARP Cache Poisoning** as an effective method for exploiting network vulnerabilities. By launching **Man-in-the-Middle (MITM)** attacks on protocols like **Telnet** and **Netcat**, we observed how attackers can intercept, redirect, and manipulate network traffic without detection. This demonstrated the critical need for securing the ARP protocol and implementing stronger protections against spoofing and MITM attacks.
+
+### Key Takeaways:
+- **ARP Cache Poisoning** remains a significant vulnerability, particularly in environments lacking ARP security measures.
+- **MITM attacks** are potent and can be executed silently, making them difficult to detect.
+- Awareness and mitigation techniques like **Static ARP Entries** and **Encryption** are essential for protecting sensitive communications.
+
+Through this lab, we gained hands-on experience with the tools and techniques used by attackers, which is vital for building effective defense strategies in real-world networks.
+
      3. Launching MITM atatck on netcat<br>
  
 
